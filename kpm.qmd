@@ -27,7 +27,7 @@ Hanya diisi dengan angka dua digit. Misal, jika menerima bansos 3 kali, tulis 03
 ### 201, 208, 209, 210, dan 211
 Kode wilayah dapat dilihat pada tautan berikut:
 
-[**KODE WILAYAH (bit.ly/juknis_bnst)**](https://derisiswara.art/juknissurveybansos/kodewil.html)
+[**KODE WILAYAH (bit.ly/juknis-bsnt-2025)**](https://derisiswara.quarto.pub/kode-wilayah-bps/kodewil.html)
 
 Atau bisa diunduh melalui file Excel pada tautan berikut:
 

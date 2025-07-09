@@ -1,1 +1,1 @@
-Sitemap: https://derisiswara.github.io/juknissurveybansos/sitemap.xml
+Sitemap: https://derisiswara.quarto.pub/kode-wilayah-bps/sitemap.xml
