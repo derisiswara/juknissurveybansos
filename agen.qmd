@@ -43,21 +43,18 @@ Pencarian kode wilayah dapat dilakukan dengan memasukkan nama wilayah pada kolom
 
 :::
 
-### 208
-Klasifikasi Desa/Kelurahan ditentukan **persepsi enumerator** terhadap desa/kelurahan tersebut. Kriteria klasifikasi adalah sebagai berikut:
-
-| **Kriteria**            | **Desa Perkotaan**                                                                                                                                         | **Desa Perdesaan**                                                                                                                      |
-|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| **Ciri-ciri**           | Memiliki ciri-ciri kota: kepadatan penduduk tinggi, infrastruktur maju, dan mayoritas penduduk bekerja di sektor non-pertanian.<br>**Contoh:** Kelurahan di pusat kota, kawasan industri, atau perumahan padat di pinggir kota. | Memiliki ciri-ciri tradisional: mayoritas penduduk bekerja di sektor pertanian/perikanan, kepadatan penduduk rendah.<br>**Contoh:** Desa pertanian, desa nelayan, atau desa di pegunungan. |
-| **Kepadatan Penduduk**  | Tinggi (banyak rumah berdekatan, lahan sempit).<br>**Contoh:** Kompleks perumahan, apartemen, atau gang sempit di kota.                                     | Rendah (rumah berjauhan, lahan luas).<br>**Contoh:** Rumah-rumah tersebar di area persawahan atau ladang.                               |
-| **Sektor Pekerjaan**    | Mayoritas bekerja di sektor non-pertanian (perdagangan, industri, jasa).<br>**Contoh:** Pegawai toko, buruh pabrik, pegawai kantor, sopir angkutan umum.    | Mayoritas bekerja di sektor pertanian atau perikanan.<br>**Contoh:** Petani, buruh tani, nelayan, peternak.                            |
-| **Infrastruktur**       | Lebih maju dan lengkap (jalan aspal, transportasi publik, pusat perbelanjaan, rumah sakit, sekolah menengah/tinggi).<br>**Contoh:** Jalan raya besar, halte bus, mall, jarak ke rumah sakit umum dekat. | Terbatas dan sederhana (jalan tanah/batu, transportasi terbatas, fasilitas umum sederhana).<br>**Contoh:** Jalan desa, puskesmas, pasar tradisional kecil, jarak ke rumah sakit umum jauh. |                        
-: {tbl-colwidths="[20,40,40]"}
-
-### 210
+### 209
 Jawaban responden dapat berupa angka tidak bulat (contoh: 2,5 tahun)
 
+### 213
+**Catatan untuk enumerator**: Pertanyaan ini bersifat sensitif, harus ditanyakan secara hati-hati dan dalam situasi yang privat. Pastikan responden merasa nyaman dan yakin bahwa informasi ini hanya untuk keperluan penelitian.
+
+Nomimal dalam juta rupiah, jika modal yang dikeluarkan adalah Rp 15.000.000 maka tulis 015 saja.
+
 ## BLOK III. MEKANISME PENYALURAN BANSOS
+### 303-304
+Enumerator perlu mengelaborasi jawaban responden. Misalnya, jika responden menyebutkan kabupaten yang berbeda maka dapat disebut sebagai wilayah lain **(Pilihan 2)**. Terkait jumlah KPM dari wilayah lain juga dapat diukur berdasarkan *clue* jawaban responden. 
+
 ### 305
 Pertanyaan 305 menanyakan terkait bagaimana KPM biasanya mengambil bantuan. Apakah:
 - **(Pilihan 1)** secara masing-masing individu.
@@ -67,11 +64,7 @@ Pertanyaan 305 menanyakan terkait bagaimana KPM biasanya mengambil bantuan. Apak
 ### 307
 Pertanyaan 307 diisi jika jawaban pada pertanyaan 306 adalah **(Pilihan 2)** (Mengambil sebagian dana bantuan dalam satu periode). Jadi berapa rata-rata persentase sebagian bansos yang diambil KPM dalam satu periode penyaluran. 
 
-### 312
-Nominal pada 312 dalam ribuan rupiah. Misal, jika biaya yang dikeluarkan adalah Rp 15.000, maka isian 503 diisi dengan angka 015.
-
-
-### 317
+### 313 dan 317
 
 | Istilah | Definisi | Ilustrasi |
 |---------|----------|-----------|
@@ -79,7 +72,25 @@ Nominal pada 312 dalam ribuan rupiah. Misal, jika biaya yang dikeluarkan adalah 
 | **PIN**<br>(*Personal Identification Number*) | Kode numerik yang digunakan sebagai alat verifikasi dalam transaksi non tunai. | |
 : {tbl-colwidths="[30,40,30]"}
 
+Ada tiga jenis **mesin EDC** yang umum digunakan oleh merchant di Indonesia, yaitu:
+
+1. **Fixed line**  
+  - Terhubung lewat jaringan telepon dan kabel listrik.  
+  - Dipakai untuk bisnis skala kecil hingga besar.
+
+2. **GPRS**  
+  - Mengandalkan jaringan seluler.  
+  - Lebih portable, namun sinyal bisa berpengaruh.
+
+3. **GPRS mobile**  
+  - Kombinasi fixed line dan GPRS.  
+  - Bisa menggunakan kabel atau seluler, lebih fleksibel.
+
+**Layanan antar kepada KPM (313)** sangat memungkinkan untuk dilakukan oleh Agen Bank, terutama jika Agen Bank tersebut memiliki mesin EDC jenis GPRS atau GPRS mobile.
+
 ## BLOK IV. LAYANAN KEUANGAN AGEN BANK
+
+### 401-405
 
 | **Istilah** | **Definisi** | **Ilustrasi** |
 |:------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|
@@ -87,23 +98,16 @@ Nominal pada 312 dalam ribuan rupiah. Misal, jika biaya yang dikeluarkan adalah 
 | **ATM**<br>(*Automatic Teller Machine*) | Mesin yang digunakan untuk melakukan penarikan tunai dari rekening dan/atau mengakses layanan lain, seperti cek saldo, transfer dana, atau setor tunai. |  |
 | **Uang Elektronik berbasis kartu/chip** | Sistem pembayaran non tunai yang memiliki bentuk fisik berupa kartu dengan sebuah chip di dalamnya. Nilai nominal saldo uang yang tersedia tersimpan di dalam chip, sehingga apabila pengguna mengalami kehilangan kartu, maka saldo uang yang dimilikinya akan hilang juga.<br>**Contoh:** e-Money, Flazz, BRIZZI, TapCash | ![](img/e1.png){ width="50px" } ![](img/e2.png){ width="50px" } |
 | **Uang Elektronik berbasis server** | Sistem pembayaran non tunai yang tidak berbentuk fisik melainkan berbentuk aplikasi. Saldo dalam uang elektronik ini dapat dilihat melalui aplikasi ponsel, dengan pencatatan kepemilikan yang tersimpan di server.<br>**Contoh:** LinkAja, OVO, Go-Pay, Dana | ![](img/e3.png){ width="100px" } |
-| **Internet Banking** | Fasilitas transaksi non tunai melalui laman website bank. |  |
+| **Internet Banking** | Fasilitas transaksi non tunai melalui laman **website bank**. |  |
 | **Mobile Banking** | Fasilitas transaksi non tunai melalui aplikasi perbankan pada handphone.<br>**Contoh:** BCA Mobile Banking, Livin’ by Mandiri, BRImo, Jago, Jenius, dll. |  |
 | **QRIS**<br>(*Quick Response Indonesia Standard*) | Serangkaian kode yang memuat data/informasi a.l. identitas pedagang/pengguna, nominal pembayaran, dan/atau mata uang yang dapat dibaca dengan alat tertentu dalam transaksi pembayaran. | ![](img/qris.png){ width="50px" } |
 : {tbl-colwidths="[25,55,20]"}
 
-### 401-405
+### 403-404
 
-- 401 dan 402 menanyakan tingkat pengetahuan atau tingkat kesadaran responden untuk jenis pembayaran non tunai yang ada secara umum (tidak terkait dengan Agen Bank yang dimiliki atau dikelolanya).
+**Hati-hati dalam mengisi pertanyaan 403 dan 404.** 403 adalah jenis alat pembayaran apa yang biasanya (pernah) digunakan oleh KONSUMEN UMUM. Sedangkan 404 adalah jenis alat pembayaran apa yang biasanya (pernah) digunakan oleh KPM. 
 
-- Pilihan jawaban pada 401 tidak boleh ditanyakan kepada responden karena jawabannya bersifat spontan dari responden.
-
-- Pertanyaan 402 ditanyakan sesuai dengan jawaban responden pada 401, yaitu bacakan pilihan pertanyaan 402 yang belum dipilih oleh responden pada 401. **Contoh**: Pada pertanyaan 401 responden memilih jawaban (Kartu Debet/ATM/KKS) dan (Internet Banking). Maka untuk pertanyaan 402 responden hanya ditanyakan apakah mereka mengetahui pilihan jawaban Kartu Kredit, Mobile Banking, Uang Elektronik Berbasis Kartu/Chip, Uang Elektronik Berbasis Server, dan QRIS.
-
-- 403, 404, dan 405 menanyakan hal terkait jenis pembayaran tunai dan non tunai yang tersedia pada Agen Bank. Jenis pembayaran tersebut tidak hanya ditujukan bagi KPM yang mengambil bantuan, namun juga seluruh pembeli yang bertransaksi/berbelanja di Agen Bank tersebut.
-
-
-### 407
+### 406
 
 | **Istilah**                                   | **Definisi**                                                                                                                                                                                                                   |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -111,7 +115,7 @@ Nominal pada 312 dalam ribuan rupiah. Misal, jika biaya yang dikeluarkan adalah 
 | **Merchant Presented Mode (MPM) Dinamis** | Merchant atau Agen Bank menggunakan QRIS yang didapat dari mesin EDC atau smartphone. Nilai nominal pembayaran dimasukkan oleh merchant atau penjual pada mesin EDC atau smartphone. Konsumen memindai QRIS dan memasukkan PIN hingga transaksi berhasil. |
 : {tbl-colwidths="[40,56]"}
 
-### 408
+### 407
 Sebagai catatan tambahan, satu Agen Bank tidak diperkenankan memiliki lebih dari satu mesin EDC dari Bank Penyalur yang sama. Jadi, jika seorang Agen Bank sudah memiliki mesin EDC dari Bank Mandiri, mereka tidak diperbolehkan memiliki mesin EDC lain dari Bank Mandiri lagi. Mereka hanya boleh memiliki satu mesin EDC untuk setiap bank penyalur.
 
 ## BLOK V. KUALITAS SARANA TELEKOMUNIKASI
@@ -134,8 +138,8 @@ Sebagai catatan tambahan, satu Agen Bank tidak diperkenankan memiliki lebih dari
 | 4        | Tidak tersedia listrik PLN           | Tidak ada akses listrik PLN sama sekali                                         |
 : {tbl-colwidths="[10,30,60]"}
 
-### 510-519
-Pertanyaan 510-519 hanya diisi hanya jika jawaban pada 509 adalah **(Pilihan 1)** (YA).
+### 509-520
+Pertanyaan 509-520 hanya diisi hanya jika jawaban pada 508 adalah **(Pilihan 1)** (YA).
 
 ## BLOK VI. PERSEPSI TERHADAP BANSOS NON TUNAI
 ### 601

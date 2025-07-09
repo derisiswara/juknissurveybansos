@@ -24,7 +24,7 @@ Hanya diisi dengan angka dua digit. Misal, jika menerima bansos 3 kali, tulis 03
 **KKS (Kartu Keluarga Sejahtera)**:	Kartu yang merupakan rekening Basic Saving Account (BSA) dengan fungsi menyimpan dana bantuan PKH dan menabung, sekaligus merupakan kartu ATM/debit untuk bertransaksi tarik tunai di ATM atau via EDC di Agen Bank. Selain itu, kartu ini memiliki fitur uang elektronik berbasis server yang berfungsi untuk membeli bantuan pangan (Program Sembako) dan menampung penerimaan bansos/subsidi tunai lainnya.
 
 ## BLOK II. PROFIL RESPONDEN
-### 201, 206, 207, 208, 209
+### 201, 208, 209, 210, dan 211
 Kode wilayah dapat dilihat pada tautan berikut:
 
 [**KODE WILAYAH (bit.ly/juknis-bsnt-2025)**](https://derisiswara.quarto.pub/kode-wilayah-bps/index2.html)
@@ -47,16 +47,6 @@ Pencarian kode wilayah dapat dilakukan dengan memasukkan nama wilayah pada kolom
 
 :::
 
-### 210
-Klasifikasi Desa/Kelurahan sebagai perkotaan atau perdesaan ditentukan oleh **persepsi enumerator** terhadap desa/kelurahan tersebut. Kriteria klasifikasi adalah sebagai berikut:
-
-| **Kriteria**            | **Desa Perkotaan**                                                                                                                                         | **Desa Perdesaan**                                                                                                                      |
-|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| **Ciri-ciri**           | Memiliki ciri-ciri kota: kepadatan penduduk tinggi, infrastruktur maju, dan mayoritas penduduk bekerja di sektor non-pertanian.<br>**Contoh:** Kelurahan di pusat kota, kawasan industri, atau perumahan padat di pinggir kota. | Memiliki ciri-ciri tradisional: mayoritas penduduk bekerja di sektor pertanian/perikanan, kepadatan penduduk rendah.<br>**Contoh:** Desa pertanian, desa nelayan, atau desa di pegunungan. |
-| **Kepadatan Penduduk**  | Tinggi (banyak rumah berdekatan, lahan sempit).<br>**Contoh:** Kompleks perumahan, apartemen, atau gang sempit di kota.                                     | Rendah (rumah berjauhan, lahan luas).<br>**Contoh:** Rumah-rumah tersebar di area persawahan atau ladang.                               |
-| **Sektor Pekerjaan**    | Mayoritas bekerja di sektor non-pertanian (perdagangan, industri, jasa).<br>**Contoh:** Pegawai toko, buruh pabrik, pegawai kantor, sopir angkutan umum.    | Mayoritas bekerja di sektor pertanian atau perikanan.<br>**Contoh:** Petani, buruh tani, nelayan, peternak.                            |
-| **Infrastruktur**       | Lebih maju dan lengkap (jalan aspal, transportasi publik, pusat perbelanjaan, rumah sakit, sekolah menengah/tinggi).<br>**Contoh:** Jalan raya besar, halte bus, mall, jarak ke rumah sakit umum dekat. | Terbatas dan sederhana (jalan tanah/batu, transportasi terbatas, fasilitas umum sederhana).<br>**Contoh:** Jalan desa, puskesmas, pasar tradisional kecil, jarak ke rumah sakit umum jauh. |                        
-: {tbl-colwidths="[20,40,40]"}
 
 ### 214 dan 215
 
@@ -75,12 +65,38 @@ Klasifikasi Desa/Kelurahan sebagai perkotaan atau perdesaan ditentukan oleh **pe
 3. **Wiraswasta/Wirausaha/Bekerja Sendiri:**  
     Seseorang yang menjalankan usaha atau pekerjaan atas inisiatif sendiri, menanggung risiko usaha, dan tidak bergantung pada pemberi kerja (misal: pemilik warung, petani yang mengelola lahan sendiri, pengrajin mandiri).
 
+### Daftar Istilah untuk 219-222
+
+| **Istilah**                            | **Definisi singkat**                                                                                               |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Program Keluarga Harapan (PKH)         | Bantuan tunai bersyarat bagi keluarga miskin yang punya ibu hamil, balita, lansia, disabilitas, atau anak sekolah. |
+| Program Sembako / BPNT                 | E-voucher pangan bulanan (beras, telur, dsb.) untuk keluarga penerima manfaat miskin.                              |
+| Program Indonesia Pintar (PIP)         | Bantuan biaya sekolah tahunan untuk siswa SD–SMA/SMK dari keluarga kurang mampu.                                   |
+| Kartu Indonesia Pintar (KIP) Kuliah    | Beasiswa kuliah penuh plus uang bulanan bagi lulusan SMA sederajat berprestasi tapi miskin.                        |
+| Kartu Indonesia Sehat (KIS)            | Kartu peserta JKN-BPJS; iuran kelas PBI ditanggung pemerintah untuk layanan kesehatan gratis.                      |
+| Bantuan Langsung Tunai (BLT) Dana Desa | Dana tunai bulanan dari Dana Desa bagi keluarga miskin-ekstrem yang belum menerima bansos lain.                    |
+| Kartu Prakerja                         | Saldo pelatihan online + insentif tunai untuk pencari kerja atau pekerja terdampak.                                |
+| Kartu Tani                             | Kartu debit terhubung e-RDKK untuk membeli pupuk dan sarana produksi tani bersubsidi.                              |
+
+### 219
+Salah satu dari Program Keluarga Harapan (PKH) atau Program Sembako (PS) harus diisi dengan **pilihan 1 (Ya, dan masih berlanjut)**.
+
+### 220
+Ketika KPM menjawab “mengajukan sendiri”, konfirmasi kembali melalui RT/RW/Desa (Pilihan 1), melalui petugas pendamping PKH (Pilihan 2) atau melalui petugas Dinas Sosial (Kecamatan) (Pilihan 3).
+
 ## BLOK III. KONDISI EKONOMI
+### 304
+
+1. **PAM (Pipa Air Minum)** adalah sistem penyediaan air minum yang menggunakan pipa untuk mengalirkan air dari sumbernya ke rumah tangga. Biasanya dikelola oleh PDAM (Perusahaan Daerah Air Minum). 
+
+2. **Sumur Pompa** adalah sumur yang dilengkapi dengan mesin pompa untuk mengangkat air dari dalam tanah ke permukaan.
+
+3. **Sumur Timba** adalah sumur tradisional yang menggunakan timba untuk mengambil air secara manual menggunakan tali dan ember.
+
 ### 309
-Diisi dengan jumlah orang diluar responden. Misal, jika responden adalah seorang suami dengan istri dan 2 anak yang tinggal serumah dan masih diberi tanggungan, maka diisi 03 (istri dan 2 anak). Jika tidak ada tanggungan, maka diisi 00.
+Diisi dengan jumlah orang diluar responden. Misal, jika responden adalah seorang suami dengan istri dan 2 anak yang tinggal serumah dan masih diberi tanggungan, maka diisi 03 (istri dan 2 anak). Atau jika responden adalah seorang istri dengan suami dan 3 anak yang tinggal serumah dan masih diberi tanggungan, maka diisi 04 (suami dan 3 anak). Dalam konsep ekonomi, suami masih masuk dalam tanggungan karena dalam prakteknya bisa saja suami menghasilkan namun tidak cukup untuk membiayai keluarga. Jika ada oranng tua (lansia) yang tinggal serumah dan masih diberi tanggungan, maka diisi juga dalam jumlah tanggungan. Jika tidak ada tanggungan, maka diisi 00.
 
 ### 310-313
-
 Isian 309 harus konsisten dengan isian 310-313. Jika memiliki 3 tanggungan (misal istri dan 2 anak kandung), maka bisa diisi dengan contoh berikut:
 
 | Tanggungan ke- | 310 | 311 | 312 | 313 |
@@ -91,15 +107,63 @@ Isian 309 harus konsisten dengan isian 310-313. Jika memiliki 3 tanggungan (misa
 
 Baris pertama diisi dengan isian untuk istri, baris kedua diisi untuk anak pertama, dan baris ketiga diisi untuk anak kedua. Jika tidak ada tanggungan, maka isian 310-313 dibiarkan kosong. Apabila jumlah tanggungan responden KPM berjumlah lebih dari 5 orang, maka enumerator dapat menambahkan baris baru pada kuesioner.
 
+### 313
+
+1. **Sehat** – Kondisi tubuh yang berfungsi normal tanpa adanya gangguan kesehatan. 
+  Contoh: Tidak ada keluhan kesehatan atau penyakit yang dialami.
+
+2. **Sakit Kronis** – Kondisi kesehatan yang berlangsung lama dan sering membutuhkan perawatan jangka panjang.
+  Contoh: Diabetes, hipertensi, atau penyakit jantung.
+
+3. **Disabilitas** – Kondisi yang mengakibatkan keterbatasan fungsi fisik atau sensorik, baik sementara maupun permanen.
+  Contoh: Patah tulang yang menyebabkan keterbatasan fungsi bergerak dalam jangka waktu lama.
+
 ## BLOK IV. PEMAHAMAN TERHADAP MEKANISME PENYALURAN BANSOS NON TUNAI 
-### 412-414
+
+### 404
+Enum sebaiknya mengurutkan opsi berdasarkan prioritas, mengingat responden terkadang mengubah pilihannya. Oleh karena itu, responden diminta memilih antara opsi 1 versus 2, opsi 2 versus 3, dan seterusnya, hingga teridentifikasi satu opsi yang paling disukai.
+
+### 405-406
+Enumerator akan lebih efektif jika setiap opsi ditanyakan secara horizontal. Misalnya, setelah diketahui pernah diberikan penjelasan (405), langsung tanyakan apakah responden memahami penjelasan tersebut (406) sebelum melanjutkan ke opsi selanjutnya.
+
+### 408
+jika terdapat responden yang menerima langsung KKS yang sudah aktif maka jawabannya adalah **TIDAK**
+
+### 411-413
 Istilah pengkinian data merujuk kepada aktivitas pembaruan (update) data identitas responden, terutama apabila responden telah melakukan kegiatan yang mengubah data pribadinya, seperti pindah alamat rumah, kematian/kelahiran anggota keluarga, penggantian nomor HP pribadi, dsb.
+
+### 414
+Enumerator wajib memastikan ketepatan sasaran, misalnya dengan mengidentifikasi apakah terdapat tetangga yang merupakan KPM, meskipun secara ekonomi sudah mapan, namun tetap menerima bantuan sosial.
 
 ## BLOK V. PENGALAMAN KPM DALAM PENARIKAN BANSOS NON TUNAI
 ### 501-503
-Pada 501, jika responden tidak pernah mengambil bansos di lokasi tersebut, maka isi  dengan angka 0, dan kemudian 502 dan 503 dibiarkan kosong.
+Enumerator dapat bertanya secara horizontal. Pada 501, jika responden tidak pernah mengambil bansos di lokasi tersebut, maka isi  dengan angka 0, dan kemudian 502 dan 503 dibiarkan kosong.
+
+Pastikan bawah frekuensi penarikan bansos selaras dengan jawaban pada 103 (BLOK I).
 
 Nominal pada 503 dalam ribuan rupiah. Misal, jika biaya transportasi yang dikeluarkan adalah Rp 15.000, maka isian 503 diisi dengan angka 015.
+
+**Biaya bensin motor per kilometer (km)**
+
+Dengan asumsi 1 liter bensin jenis pertalite = Rp 10.000, dan 1 liter bensin dapat menempuh jarak 50 km, maka biaya bensin per kilometer adalah Rp 10.000 / 50 km = Rp 200/km.
+
+Tabel konversi biaya bensin per kilometer:
+
+| **Jarak (km)** | **Biaya Bensin (Rp)** |
+|----------------|-----------------------|
+| 1-5              | 1000                   |
+| 6-10             | 2000                   |
+| 11-15            | 3000                   |
+| 16-20            | 4000                   |
+| 21-25            | 5000                   |
+| 26-30            | 6000                   |
+| Dan seterusnya            |                   |
+
+**Agen Bank** 
+
+- **Agen di wilayah setempat**: Berada di wilayah desa/kelurahan tempat tinggal responden, sehingga mudah dijangkau.
+
+- **Agen di wilayah lain**: Berada di wilayah desa/kelurahan lain.
 
 ### 510
 
@@ -131,29 +195,24 @@ Apabila responden KPM pernah mengalami beberapa masalah dengan sebagian masalah 
 | **QRIS (*Quick Response Indonesia Standard*)** | Serangkaian kode yang memuat data/informasi a.l. identitas pedagang/pengguna, nominal pembayaran, dan/atau mata uang yang dapat dibaca dengan alat tertentu dalam transaksi pembayaran. ![](img/qris.png){ width="50px" }                                                                                                                        |
 : {tbl-colwidths="[30,70]"}
 
-- Pilihan jawaban pada 606 ditanyakan semua kepada responden. Jika responden mengetahui fasilitas transaksi elektronik atau digital yang disebutkan, maka pilih angka yang sesuai.
-
-- Pertanyaan 607 menanyakan hal terkait fasilitas transaksi elektronik atau digital yang pernah digunakan oleh responden secara pribadi di luar penerimaan Bansos pada satu tahun terakhir.
-
-- Pertanyaan 608 ditanyakan sesuai dengan jawaban responden pada 607 dengan mengurutkan 3 jenis fasilitas transaksi keuangan yang paling sering digunakan.
-
-**Contoh:**
-Pada pertanyaan 607 responden memilih jawaban 3 (ATM) dan jawaban 9 (SMS Banking). Maka untuk pertanyaan 608 responden hanya diminta untuk mengurutkan fasilitas “ATM” dan “SMS Banking” saja dimulai dari yang paling sering. Pilihan jawaban yang tidak dipilih pada 607 tidak perlu diurutkan di 608.
-
 ### 609-611
-Pertanyaan 610 dan 611 hanya diisi jika responden menjawab "Ya" pada 609.
+Pertanyaan 610 hanya diisi jika pertanyaan 609 terisi. Pertanyaan 611 hanya diisi jika pertanyaan 610 terisi.
+
+### 619
+Jika tidak mengetahui biayanya, maka enumerator menuliskan “-”
+
+### 620
+Enumerator, mohon periksa jawaban pada pertanyaan 606 agar konsisten.
 
 ## BLOK VII. KEPEMILIKAN HANDPHONE DAN KUALITAS SINYAL
 ### 715
 Pilihan nomor 3, yaitu “Mencari informasi”, dapat dipilih apabila responden melakukan kegiatan aktivitas pencarian informasi atau pengetahuan yang dapat bersumber dari kegiatan browsing (menggunakan search engine google), grup media sosial (grup WhatsApp), video edukatif (Youtube, Facebook, TikTok), dsb.
 
-### 722 dan  723
-
-Pertanyaan 723 hanya diisi jika responden menjawab "Ya" pada 722. Berikan urutan 3 opsi metode penarikan bansos yang paling diinginkan oleh responden.
-
 ## BLOK VIII. PERSEPSI TERHADAP BANSOS NON TUNAI
 ### 801
 
--Enumerator dapat menyederhanakan kalimat pernyataan-pernyataan yang ada dengan bahasa sendiri agar responden dapat lebih mudah memahami maksud pernyataan yang ditanyakan.
--Pada poin 1 makna istilah 'cepat' adalah dana bansos non tunai yang sudah masuk ke rekening KPM dapat dengan segera ditarik/dimanfaatkan oleh KPM.
--Istilah 'dimanapun' untuk poin 2 dan 5 dimaksudkan untuk tempat penarikan bansos non tunai, yaitu Agen Bank/ATM/KC Bank.
+- Enumerator dapat menyederhanakan kalimat pernyataan-pernyataan yang ada dengan bahasa sendiri agar responden dapat lebih mudah memahami maksud pernyataan yang ditanyakan.
+
+- Pada poin 1 makna istilah 'cepat' adalah dana bansos non tunai yang sudah masuk ke rekening KPM dapat dengan segera ditarik/dimanfaatkan oleh KPM.
+
+- Istilah 'dimanapun' untuk poin 2 dan 5 dimaksudkan untuk tempat penarikan bansos non tunai, yaitu Agen Bank/ATM/KC Bank.

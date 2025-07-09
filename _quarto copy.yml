@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+freeze: true
+
+website:
+  title: "BSNT 2025"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: index2.qmd
+        text: Kode Wilayah
+      - href: kpm.qmd
+        text: Kuesioner KPM
+      - href: agen.qmd
+        text: Kuesioner Agen Bank  
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
