@@ -9,7 +9,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: index2.qmd
+      - href: kodewil.qmd
         text: Kode Wilayah
       - href: kpm.qmd
         text: Kuesioner KPM
