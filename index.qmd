@@ -150,4 +150,8 @@ knitr::kable(
 
 9.  Harap diingat untuk mengisi Nomor Kuesioner dan Nama Enumerator/Surveyor pada halaman pertama (di bagian atas) kuesioner kertas. Nomor kuesioner disesuaikan secara mandiri dengan memberikan kode yang berbeda antar jenis responden.
 
+![](img/ilustrasi.png)
+
 10. Untuk mengisi pertanyaan pada kuesioner kertas, beri **simbol centang (✓)** pada lingkaran (◯) yang berada di samping kiri jawaban yang dipilih atau **isilah dengan angka** pada kotak (☐) sesuai dengan petunjuk yang diberikan pada setiap pertanyaan. Apabila terdapat pertanyaan yang terbuka isilah jawaban pada kolom yang telah disediakan.
+
+11. Jika kolom ketiga (ke-3) pada suatu pertanyaan kosong, dapat dijadikan sebagai catatan enumerator. 
